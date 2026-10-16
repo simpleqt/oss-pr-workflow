@@ -1,0 +1,30 @@
+{
+  "updated_at": "2026-10-16T10:52:30Z",
+  "prs": {
+    "acme/widgets#123": {
+      "state": "OPEN",
+      "updated_at": "2026-10-15T09:00:00Z",
+      "note": "SUBMITTED 2026-10-10: fix off-by-one in retry backoff; red/green test included || r3: maintainer asked to split the test; done (head ab12cd3) || r5: LGTM once (1) handled - done, waiting on final review"
+    },
+    "acme/widgets#124": {
+      "state": "MERGED",
+      "updated_at": "2026-10-14T18:00:00Z",
+      "note": "SUBMITTED 2026-10-09: reject negative page size in list API || r4: merged by maintainer"
+    },
+    "acme/widgets#125": {
+      "state": "OPEN",
+      "updated_at": "2026-10-13T08:00:00Z",
+      "note": "SUBMITTED 2026-10-11: docs typo fix (pre-ban batch, patrol duty continues) || r6: license/cla PENDING since day one - user action, signing URL recorded"
+    }
+  },
+  "merged_log": ["acme/widgets#124"],
+  "total_merged_confirmed": 1,
+  "user_actions_pending": [
+    {
+      "pr": "acme/widgets#125",
+      "action": "Sign the CLA",
+      "url": "https://cla-assistant.io/acme/widgets?pullRequest=125",
+      "then": "gate re-runs automatically on next push or comment"
+    }
+  ]
+}
