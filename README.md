@@ -1,12 +1,11 @@
 # oss-pr-workflow
 
-An agent skill (plus a small scanner script) for running an **automated,
-quality-gated OSS contribution workflow** across many GitHub repositories:
-submitting substantive fixes as pull requests, then patrolling everything
-already submitted - notifications, review feedback, CI and CLA/DCO gates,
-stale bots - until every PR reaches merge or a clear rejection.
+一个 Agent 技能（外加一个小型扫描脚本），用于在大量 GitHub 仓库上运行**自动化、
+带质量门禁的开源贡献工作流**：把有实质内容的修复作为 PR 提交，然后持续盯守所有已提交
+的 PR —— 通知、评审反馈、CI 与 CLA/DCO 门禁、stale bot —— 直到每个 PR 要么被合并、
+要么被明确拒绝。
 
-Built and hardened over ~900 tracked pull requests across ~100 repositories.
+在约 100 个仓库、约 900 个 PR 的实战中打磨成型。
 
 ## What it does
 
